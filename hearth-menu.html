@@ -67,16 +67,16 @@
       <hr class="rule" />
       <p class="sub">For our guests — the house and the holds</p>
       <nav>
-        <a class="btn" href="https://claypnw.github.io/morning-scroll/">
+        <a class="btn" href="https://claypnw.github.io/morning-scroll/?from=hearth">
           <span class="t">Morning Scroll</span><span class="d">Today&rsquo;s paper</span>
         </a>
-        <a class="btn" href="https://claypnw.github.io/morning-scroll/yard-sales.html">
+        <a class="btn" href="https://claypnw.github.io/morning-scroll/yard-sales.html?from=hearth">
           <span class="t">Yard &amp; Estate Sales</span><span class="d">This week&rsquo;s sheet</span>
         </a>
-        <a class="btn" href="https://claypnw.github.io/gilded-pages/">
+        <a class="btn" href="https://claypnw.github.io/gilded-pages/?from=hearth">
           <span class="t">Gilded Pages</span><span class="d">Business directory</span>
         </a>
-        <a class="btn" href="https://claypnw.github.io/mogollon-s-hearth-build-page/">
+        <a class="btn" href="https://claypnw.github.io/mogollon-s-hearth-build-page/?from=hearth">
           <span class="t">Mogollon&rsquo;s Hearth</span><span class="d">Build page &amp; prop inventory</span>
         </a>
         <a class="btn" id="return-admin" href="admin-menu.html" hidden>
@@ -93,6 +93,21 @@
   if (new URLSearchParams(window.location.search).get("from") === "admin") {
     document.getElementById("return-admin").hidden = false;
   }
+</script>
+<script>
+// When this menu was itself opened from the Admin Menu (?from=admin), the
+// pages it opens are told "hearth-admin"/"locals-admin" instead, so their
+// return lands back here with the road to the Admin Menu still showing.
+(function(){
+  if(new URLSearchParams(window.location.search).get("from")!=="admin")return;
+  var links=document.querySelectorAll("a[href]");
+  for(var i=0;i<links.length;i++){
+    var h=links[i].getAttribute("href");
+    if(!h)continue;
+    if(h.indexOf("from=hearth")>=0&&h.indexOf("hearth-admin")<0)links[i].setAttribute("href",h.replace("from=hearth","from=hearth-admin"));
+    if(h.indexOf("from=locals")>=0&&h.indexOf("locals-admin")<0)links[i].setAttribute("href",h.replace("from=locals","from=locals-admin"));
+  }
+})();
 </script>
 </body>
 </html>
