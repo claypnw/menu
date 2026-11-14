@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "n": 1,
+      "name": "The Payson Morning Scroll",
+      "slug": null,
+      "page_status": "Finished \u2014 5 pages, verified",
+      "status": "finished \u2014 web edition published, 5 pages, 29 files, verify VERDICT: PASS",
+      "record": "~/workspace/morning-post/batch/logs/verify-2026-11-14-20261114-104301.log (VERDICT: PASS) and the Morning agenda briefing finish line in ~/workspace/OPEN-WORK.md for 2026-11-14",
+      "links": [
+        {
+          "text": "1 \u00b7 The Payson Morning Scroll",
+          "href": "https://morning-scroll-53x.pages.dev/edition-2026-11-14.html"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Last night's KPIs",
+      "slug": "kpi",
+      "page_status": "Finished with a problem \u2014 7 of 8 finished, 0 failed, 1 no record",
+      "status": "finished with an exception named \u2014 7 finished out of 8 total, 0 failed, 1 no-record (Daily walk watch \u2014 no run log for the night; the job stands disabled, last run 2026-11-10)",
+      "record": "~/workspace/goals/morning-agenda-briefing/hidden_files/morning-kpi-records/night-2026-11-14.json (set total 8) and ~/workspace/your_files/kpi-page-2026-11-14.pdf",
+      "links": [
+        {
+          "text": "2 \u00b7 Last night's KPIs",
+          "href": "/home/hatch/workspace/your_files/kpi-page-2026-11-14.pdf"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "GitHub billing",
+      "slug": "billing",
+      "page_status": "Finished \u2014 1,620 minutes, 54.00% of the cycle",
+      "status": "finished \u2014 plan Pro, $0 billed, cycle Actions minutes 1,620, 54.00% of the 3,000 included minutes, 1,380 minutes left, warnings none, VERDICT: PASS",
+      "record": "~/workspace/batch-logs/github-billing-watch/2026-11-14.log",
+      "links": [
+        {
+          "text": "3 \u00b7 GitHub billing",
+          "href": "/home/hatch/workspace/goals/family-photo-narration-project-follow-up/files/github-billing-2026-11-14.pdf"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "name": "Yard & estate sales",
+      "slug": null,
+      "page_status": "Finished \u2014 3 sales today, 0 coming up",
+      "status": "finished \u2014 3 sales on today's sheet, 0 sales on the coming-up sheet, both sheets published, verify VERDICT: PASS",
+      "record": "~/workspace/batch-logs/yard-estate-sales-refresh/2026-11-14.log and ~/workspace/yard-estate-sales/sales-data.json (3 sales, all covering 2026-11-14, none starting after today) and the Yard and estate sales refresh finish line in ~/workspace/OPEN-WORK.md for 2026-11-14",
+      "links": [
+        {
+          "text": "4 \u00b7 Yard & estate sales \u2014 today's sheet",
+          "href": "https://morning-scroll-53x.pages.dev/payson-yard-estate-sales-today.pdf"
+        },
+        {
+          "text": "the coming-up sheet",
+          "href": "https://morning-scroll-53x.pages.dev/payson-yard-estate-sales-upcoming.pdf"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "name": "AI community report",
+      "slug": null,
+      "page_status": "Finished \u2014 98 topics, 47 problems",
+      "status": "finished \u2014 98 topics and 47 problems, 1 quiet; the night run folded 4 useful finds: 0 topics added, 0 problems added, 2 topics updated, 2 problems updated, none retired, 15-day review 0 sources past 15 days so no proposal",
+      "record": "~/workspace/learning/community-check/2026-11-13.md and ~/workspace/learning/community-check/2026-11-14.md and ~/workspace/learning/community-check/state.md",
+      "links": [
+        {
+          "text": "5 \u00b7 AI community report",
+          "href": "https://claypnw.github.io/report-on-muse-ai-communities/"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "name": "My Daily Review",
+      "slug": null,
+      "page_status": "Finished \u2014 14 stories across 8 subjects",
+      "status": "finished \u2014 14 stories across 8 subjects, 14 with listen buttons, play-all player standing with 14 tracks, live page verified PASS",
+      "record": "~/workspace/batch-logs/my-daily-review/2026-11-14.log",
+      "links": [
+        {
+          "text": "6 \u00b7 My Daily Review",
+          "href": "https://claypnw.github.io/my-daily-review/"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "name": "Muse connectors report",
+      "slug": "connectors",
+      "page_status": "Finished \u2014 91 connectors, 11 connected",
+      "status": "finished \u2014 91 connectors in the catalog, 2 new today, 11 connected, 9 pages",
+      "record": "~/workspace/connectors-report/catalog-2026-11-14.json (finish line in ~/workspace/OPEN-WORK.md for 2026-11-14) and ~/workspace/connectors-report/connectors-report-2026-11-14.pdf",
+      "links": [
+        {
+          "text": "7 \u00b7 Muse connectors report",
+          "href": "/home/hatch/workspace/connectors-report/connectors-report-2026-11-14.pdf"
+        }
+      ]
+    }
+  ],
+  "decisions": [],
+  "night_reports": [
+    {
+      "name": "Daily production review of Friday, November 13, 2026",
+      "slug": "production-review",
+      "href": "/home/hatch/workspace/your_files/morning-report-2026-11-13.pdf"
+    },
+    {
+      "name": "The Steward's Ledger \u2014 Edition 34, Saturday, November 14, 2026",
+      "slug": null,
+      "href": "https://morning-scroll-53x.pages.dev/stewards-ledger-2026-11-14.html"
+    },
+    {
+      "name": "The effort log \u2014 updated for Friday, November 13, 2026",
+      "slug": null,
+      "href": "https://claypnw.github.io/test-stand/effort-log.html"
+    },
+    {
+      "name": "The Gilded Pages \u2014 7 new healthcare listings added last night (Sedona and Cottonwood)",
+      "slug": null,
+      "href": "https://claypnw.github.io/gilded-pages/"
+    }
+  ],
+  "excluded": [
+    {
+      "item": "Maker finds (item 6)",
+      "reason": "no picks \u2014 the 2026-11-14 run log records 0 picks, no true fit this round, so the row is left off under step 1"
+    },
+    {
+      "item": "Mailbox audit (item 8)",
+      "reason": "no record for this morning \u2014 the report file's modification date is 2026-11-01, not yesterday or today, so the item is left off the menu under step 1"
+    }
+  ],
+  "reader_check": [
+    {
+      "item": "The Payson Morning Scroll",
+      "result": "PASS \u2014 live edition page answers 200, Listen/audio present; its sound file answers 200 at 7,240,205 bytes (full edition) / lead file 364,493 bytes"
+    },
+    {
+      "item": "Last night's KPIs",
+      "result": "PASS \u2014 live PDF answers 200 at 38,786 bytes, matching the local file exactly; 1 page; first screen reads 'Last night's KPIs Saturday, November 14, 2026 \u2014 One run left no record: Daily walk watch; Finished by 5:00 AM: 7 of 8'"
+    },
+    {
+      "item": "GitHub billing",
+      "result": "PASS \u2014 live PDF answers 200 at 14,088 bytes, matching the local file exactly; 2 pages; first screen reads 'Total used: 54.00% of the month's 3,000 included minutes (1620 minutes)'"
+    },
+    {
+      "item": "Yard & estate sales",
+      "result": "PASS \u2014 today's sheet answers 200 at 28,411 bytes (2 pages, 'Today's Yard & Estate Sales') and the coming-up sheet answers 200 at 9,473 bytes (1 page, 'Upcoming Yard & Estate Sales \u2014 No upcoming yard, garage, estate, or moving sales'), both matching the yard verify log's built sizes"
+    },
+    {
+      "item": "AI community report",
+      "result": "PASS \u2014 live newspaper page answers 200, title 'Report on Muse AI Communities \u2014 November 14, 2026', listen/player present; sampled sound file answers 200 at 36,462,565 bytes"
+    },
+    {
+      "item": "My Daily Review",
+      "result": "PASS \u2014 live page answers 200, title 'My Daily Review \u2014 Saturday, November 14, 2026', story player present (btn-begin standing); live playlist fetches with 14 tracks and the sampled first track answers at 438,757 bytes, matching the run log's recorded size"
+    },
+    {
+      "item": "Muse connectors report",
+      "result": "PASS \u2014 live PDF answers 200 at 42,389 bytes, matching the local file exactly; 9 pages; first screen reads 'Muse connectors report Saturday, November 14, 2026'"
+    },
+    {
+      "item": "Numbering on the page",
+      "result": "PASS \u2014 the numbers printed on the live page run 1, 2, 3, 4, 5, 6, 7 in order, with no gaps and no repeats"
+    },
+    {
+      "item": "Filament ad section",
+      "result": "PASS \u2014 the filament section stands on the live page and matches ~/workspace/morning-post/filament-ad.md: headline 'Filament sales \u2014 Saturday, November 14' and all 14 ad lines present (builder reported 15 lines including the headline)"
+    },
+    {
+      "item": "Reports from last night section",
+      "result": "PASS \u2014 section stands on the live page with 4 reports, every link opened from the live page and read back working: the Daily production review copied PDF answers 200 at 966,981 bytes, matching the local file exactly (2 pages, image-based PDF \u2014 no extractable text on its first screen); The Steward's Ledger Edition 34 page answers 200 with its edition title standing; the effort log page answers 200; The Gilded Pages answers 200 with its title standing"
+    }
+  ]
+}
