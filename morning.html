@@ -3,37 +3,77 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Morning Menu — Monday, November 16, 2026</title>
+<title>Morning Dashboard — Monday, November 16, 2026</title>
 <style>
-body { font-family: Georgia, 'Times New Roman', serif; background: #fffdf5; color: #111;
-       max-width: 44rem; margin: 0 auto; padding: 1.2rem 1rem 3rem; line-height: 1.45; }
-h1 { font-size: 1.6rem; border-bottom: 3px solid #8a6d3b; padding-bottom: .4rem; }
-p.sub { color: #5a4d33; }
-ol { padding-left: 0; list-style: none; }
-li { margin: 0 0 1.1rem 0; font-size: 1.05rem; }
-li a { font-weight: bold; }
-.status { display: block; margin-top: .15rem; }
-.decisions { margin-top: 1.6rem; }
-.filament { margin-top: 1.6rem; }
-.night { margin-top: 1.6rem; }
-.foot { margin-top: 2rem; color: #5a4d33; font-size: .95rem; }
+body { margin:0; background:#E8D7B9; color:#2B2118; font-family: Georgia, 'Times New Roman', serif; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 14px 16px 42px; }
+.topbar { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #6B543A; padding-bottom:8px; }
+.topbar .brand { font-size:15.5px; font-weight:bold; }
+.headrow { display:flex; justify-content:space-between; align-items:flex-end; gap:12px; margin-top:10px; }
+h1 { margin:0; font-size:44px; font-weight:normal; letter-spacing:.5px; }
+.date { font-size:16.5px; margin-top:2px; }
+.refresh { text-align:right; }
+.refresh button { font-family:inherit; font-size:14.5px; background:#FBF6E9; color:#2B2118; border:1.5px solid #6B543A; border-radius:8px; padding:8px 14px; cursor:pointer; }
+.refresh .note { font-size:12.5px; margin-top:5px; }
+.tiles { display:grid; grid-template-columns: repeat(4, 1fr); gap:10px; margin:18px 0 4px; }
+.tile { background:#FBF6E9; border:1px solid #6B543A; border-radius:10px; padding:12px 14px; }
+.tile .lab { font-size:12px; letter-spacing:1.5px; text-transform:uppercase; }
+.tile .big { font-size:25px; font-weight:bold; margin:5px 0 7px; }
+.tile .small { font-size:13px; margin-top:5px; }
+.bar { display:flex; height:9px; background:#DCCBA3; border-radius:5px; overflow:hidden; }
+.bar .fill { background:#5C7350; }
+.bar .rest { background:#C9B083; }
+h2.group { font-size:24px; font-weight:normal; border-bottom:1px solid #6B543A; padding-bottom:4px; margin:26px 0 12px; }
+.cards { display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; }
+.cards4 { display:grid; grid-template-columns: repeat(4, 1fr); gap:10px; }
+.card { background:#FBF6E9; border:1px solid #6B543A; border-radius:10px; padding:12px 14px; }
+.card .row { display:flex; justify-content:space-between; align-items:baseline; gap:8px; }
+.card h3 { margin:0; font-size:17px; }
+.card .st { font-size:12.5px; white-space:nowrap; color:#47603C; font-weight:bold; }
+.card .st.warn { color:#8A5A00; }
+.card .det { font-size:14px; margin-top:5px; line-height:1.4; }
+.card .links { margin-top:8px; font-size:14.5px; }
+.card .links a { color:#4A3826; margin-right:14px; }
+.decisions { background:#FBF6E9; border:1px solid #6B543A; border-radius:10px; padding:12px 16px; }
+.decisions ul { margin:6px 0; padding-left:20px; font-size:14.5px; line-height:1.5; }
+.filament { background:#FBF6E9; border:1px solid #6B543A; border-radius:10px; padding:12px 16px; }
+.filament ul { margin:6px 0; padding-left:20px; font-size:14.5px; line-height:1.55; }
+.note-line { font-size:14px; font-style:italic; margin-top:12px; }
+footer { margin-top:30px; border-top:3px double #6B543A; padding-top:10px; font-size:13.5px; text-align:center; line-height:1.55; }
+@media (max-width: 900px) { .tiles, .cards4 { grid-template-columns: repeat(2, 1fr); } .cards { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .tiles, .cards, .cards4 { grid-template-columns: 1fr; } h1 { font-size:32px; } .headrow { flex-direction:column; align-items:flex-start; } .refresh { text-align:left; } }
 </style>
 </head>
 <body>
-<h1>Morning Menu — Monday, November 16, 2026</h1>
-<p class="sub">Monday, November 16, 2026 — tap any item to open its own report. Come back and tap another any time.</p>
-<ol>
-<li><a href="https://morning-scroll-53x.pages.dev/edition-2026-11-16.html">1 · The Payson Morning Scroll</a><span class="status">Finished — 4 pages, verified</span></li>
-<li><a href="morning-files/2026-11-16-kpi.pdf">2 · Last night&#x27;s KPIs</a><span class="status">Finished with a problem — 7 of 8 finished, 0 failed, 1 no record</span></li>
-<li><a href="morning-files/2026-11-16-billing.pdf">3 · GitHub billing</a><span class="status">Finished — 1,741 minutes, 58.03% of the cycle</span></li>
-<li><a href="https://morning-scroll-53x.pages.dev/payson-yard-estate-sales-today.pdf">4 · Yard &amp; estate sales — today&#x27;s sheet</a> — <a href="https://morning-scroll-53x.pages.dev/payson-yard-estate-sales-upcoming.pdf">the coming-up sheet</a><span class="status">Finished — 0 sales today, 0 coming up</span></li>
-<li><a href="https://claypnw.github.io/report-on-muse-ai-communities/">5 · AI community report</a><span class="status">Finished — 102 topics, 51 problems</span></li>
-<li><a href="https://claypnw.github.io/my-daily-review/">6 · My Daily Review</a><span class="status">Finished — 10 stories across 9 subjects</span></li>
-<li><a href="morning-files/2026-11-16-connectors.pdf">7 · Muse connectors report</a><span class="status">Finished — 92 connectors, 11 connected</span></li>
-</ol>
-<div class="filament"><p><b>Filament sales — Monday, November 16</b></p><ul><li>PETG, White, $159.99 for 15 spools, $10.67 a kilogram, Walmart</li><li>PETG, White, $54.99 for 5 spools, $11.00 a kilogram, Walmart</li><li>PLA Classic, White, $179.80 for 20 rolls, $8.17 a kilogram, JAYO</li><li>PLA, White, Red, and Green, $89.99 for 10 spools, $9.00 a kilogram, ELEGOO</li><li>PETG Basic refill, White and Green, $9.09 a kilogram in a bundle of 10 or more, Bambu Lab</li><li>PETG Refill, White, Red, and Green, $9.50 a kilogram at the bulk sale price, Anycubic</li><li>PLA, White and Light Green, $9.59 a kilogram in a bundle of 10 or more, Creality</li><li>PETG, White, Fern Green, and Brick Red, $9.59 a kilogram in a bundle of 10 or more, Creality</li><li>PLA Basic refill, White, Red, Gold, and Green, $9.74 a kilogram in a bundle of 10 or more, Bambu Lab</li><li>PETG Pro, White, Red, and Green, $194.99 for 20 spools, $9.75 a kilogram, ELEGOO</li><li>PETG, Red, $11.09 for one 1.1 kilogram roll, $10.08 a kilogram, JAYO</li><li>PLA, Pure Red, $11.09 for one 1.1 kilogram roll, $10.08 a kilogram, JAYO</li><li>Silk PLA, Christmas Red, Shiny Gold, Christmas Green, and White, $10.35 a kilogram at the bulk sale price, Anycubic</li><li>Silk PLA refill, Gold and White, $10.39 a kilogram in a bundle of 10 or more, Bambu Lab</li><li>PLA, White, Red, Green, and Gold, $10.49 a kilogram in the 10 kilogram deal, Anycubic</li><li>Not checked today: Amazon — retried tomorrow</li></ul></div>
-<div class="night"><p><b>Reports from last night:</b></p><ul><li><a href="https://morning-scroll-53x.pages.dev/stewards-ledger-2026-11-16.html">The Steward&#x27;s Ledger — Edition 36, Monday, November 16, 2026</a></li><li><a href="https://claypnw.github.io/test-stand/effort-log.html">The effort log — updated for Sunday, November 15, 2026</a></li><li><a href="https://claypnw.github.io/gilded-pages/">The Gilded Pages — 7 new healthcare listings added last night (Cottonwood)</a></li></ul></div>
-<div class="decisions"><p><b>Decisions waiting:</b> none this morning.</p></div>
-<p class="foot">This page is rebuilt every morning. Anyone holding this page's address can open it and the reports behind it.</p>
+<div class="wrap">
+<div class="topbar"><div class="brand">✦ Mogollon's Hearth</div></div>
+<div class="headrow">
+  <div><h1>Morning Dashboard</h1><div class="date">Monday, November 16, 2026</div></div>
+  <div class="refresh"><button onclick="location.reload()">↻ Refresh reports</button>
+  <div class="note">Latest reports · checked this morning</div></div>
+</div>
+<div class="tiles">
+<div class="tile"><div class="lab">Overnight run</div><div class="big">7 / 8 finished</div><div class="bar"><div class="fill" style="width:87.5%"></div><div class="rest" style="width:12.5%"></div></div><div class="small">7 finished · 0 failed · 1 no record</div></div>
+<div class="tile"><div class="lab">GitHub billing</div><div class="big">58.03% of cycle</div><div class="bar"><div class="fill" style="width:58.03%"></div></div><div class="small">1,741 minutes used</div></div>
+<div class="tile"><div class="lab">Connectors</div><div class="big">11 / 92 connected</div><div class="bar"><div class="fill" style="width:12%"></div></div><div class="small">11 working for you</div></div>
+<div class="tile"><div class="lab">Decisions waiting</div><div class="big" style="font-size:19px; padding-top:5px;">None this morning.</div><div class="small">No choice or approval is waiting on you.</div></div>
+</div>
+<h2 class="group">Morning reports</h2>
+<div class="cards">
+<div class="card"><div class="row"><h3>The Payson Morning Scroll</h3><span class="st">Finished</span></div><div class="det">4 pages, verified</div><div class="links"><a href="https://morning-scroll-53x.pages.dev/edition-2026-11-16.html">Open report</a></div></div>
+<div class="card"><div class="row"><h3>Last night&#x27;s KPIs</h3><span class="st warn">Finished with a problem</span></div><div class="det">7 of 8 finished, 0 failed, 1 no record</div><div class="links"><a href="morning-files/2026-11-16-kpi.pdf">Open PDF</a></div></div>
+<div class="card"><div class="row"><h3>GitHub billing</h3><span class="st">Finished</span></div><div class="det">1,741 minutes, 58.03% of the cycle</div><div class="links"><a href="morning-files/2026-11-16-billing.pdf">Open PDF</a></div></div>
+<div class="card"><div class="row"><h3>Yard &amp; estate sales</h3><span class="st">Finished</span></div><div class="det">0 sales today, 0 coming up</div><div class="links"><a href="https://morning-scroll-53x.pages.dev/payson-yard-estate-sales-today.pdf">Open PDF</a><a href="https://morning-scroll-53x.pages.dev/payson-yard-estate-sales-upcoming.pdf">The coming-up sheet</a></div></div>
+<div class="card"><div class="row"><h3>AI community report</h3><span class="st">Finished</span></div><div class="det">102 topics, 51 problems</div><div class="links"><a href="https://claypnw.github.io/report-on-muse-ai-communities/">Open report</a></div></div>
+<div class="card"><div class="row"><h3>My Daily Review</h3><span class="st">Finished</span></div><div class="det">10 stories across 9 subjects</div><div class="links"><a href="https://claypnw.github.io/my-daily-review/">Open report</a></div></div>
+<div class="card"><div class="row"><h3>Muse connectors report</h3><span class="st">Finished</span></div><div class="det">92 connectors, 11 connected</div><div class="links"><a href="morning-files/2026-11-16-connectors.pdf">Open PDF</a></div></div>
+<div class="card"><div class="row"><h3>Class C motorhome search — the RV report</h3><span class="st">Updated each night</span></div><div class="det">Class C, under 30 feet, under $25,000 — Payson first. Each listing stands with the seller's full write-up.</div><div class="links"><a href="https://muse.ai/s/class-c-motorhome-search-payson-xmxv6g1xphxnxzxto/Heh2N9yerFzwNqtAshJRxIV-KvTtSiCHKax04mt0qjI">Open report</a></div></div>
+</div>
+<p class="note-line">Maker finds — the nightly hunt for pieces to make into the Hearth found no true fit last night, so no new pick stands here today.</p>
+<h2 class="group">From last night</h2><div class="cards4"><div class="card"><h3><a href="https://morning-scroll-53x.pages.dev/stewards-ledger-2026-11-16.html" style="color:#2B2118;">The Steward&#x27;s Ledger</a></h3><div class="det">Edition 36, Monday, November 16, 2026</div></div><div class="card"><h3><a href="https://claypnw.github.io/test-stand/effort-log.html" style="color:#2B2118;">The effort log</a></h3><div class="det">updated for Sunday, November 15, 2026</div></div><div class="card"><h3><a href="https://claypnw.github.io/gilded-pages/" style="color:#2B2118;">The Gilded Pages</a></h3><div class="det">7 new healthcare listings added last night (Cottonwood)</div></div><div class="card"><h3><a href="#filament" style="color:#2B2118;">Filament sales</a></h3><div class="det">15 listings — the full list stands below</div></div></div>
+
+<h2 class="group" id="filament">Filament sales — Monday, November 16</h2><div class="filament"><ul><li>PETG, White, $159.99 for 15 spools, $10.67 a kilogram, Walmart</li><li>PETG, White, $54.99 for 5 spools, $11.00 a kilogram, Walmart</li><li>PLA Classic, White, $179.80 for 20 rolls, $8.17 a kilogram, JAYO</li><li>PLA, White, Red, and Green, $89.99 for 10 spools, $9.00 a kilogram, ELEGOO</li><li>PETG Basic refill, White and Green, $9.09 a kilogram in a bundle of 10 or more, Bambu Lab</li><li>PETG Refill, White, Red, and Green, $9.50 a kilogram at the bulk sale price, Anycubic</li><li>PLA, White and Light Green, $9.59 a kilogram in a bundle of 10 or more, Creality</li><li>PETG, White, Fern Green, and Brick Red, $9.59 a kilogram in a bundle of 10 or more, Creality</li><li>PLA Basic refill, White, Red, Gold, and Green, $9.74 a kilogram in a bundle of 10 or more, Bambu Lab</li><li>PETG Pro, White, Red, and Green, $194.99 for 20 spools, $9.75 a kilogram, ELEGOO</li><li>PETG, Red, $11.09 for one 1.1 kilogram roll, $10.08 a kilogram, JAYO</li><li>PLA, Pure Red, $11.09 for one 1.1 kilogram roll, $10.08 a kilogram, JAYO</li><li>Silk PLA, Christmas Red, Shiny Gold, Christmas Green, and White, $10.35 a kilogram at the bulk sale price, Anycubic</li><li>Silk PLA refill, Gold and White, $10.39 a kilogram in a bundle of 10 or more, Bambu Lab</li><li>PLA, White, Red, Green, and Gold, $10.49 a kilogram in the 10 kilogram deal, Anycubic</li></ul><p style="margin:4px 0 0; font-size:14px;">Not checked today: Amazon — retried tomorrow</p></div>
+<footer>This page is rebuilt every morning. Anyone holding this page's address can open it and the reports behind it.</footer>
+</div>
 </body>
 </html>
