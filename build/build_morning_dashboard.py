@@ -493,6 +493,13 @@ RR_HOME_URL = ("https://github.com/claypnw/Health/tree/main/"
 # beside the dashboard; the Raven's Reach card below links to it.
 ARCHIVE_PROCESS_URL = "archive-process.html"
 
+# The Daily Security & Outage Brief (Clay approved the brief
+# 2026-11-24): the morning-security-brief-daily job writes each
+# morning's brief as a PDF at this one fixed address on this same
+# site, overwritten every day; the standing card below links to it.
+SECURITY_BRIEF_URL = ("https://menu-c8u.pages.dev/reports/"
+                      "daily-security-brief.pdf")
+
 
 def rr_audit_card():
     """The Raven's Reach nightly archive audit card's body, read from
@@ -728,13 +735,13 @@ def main():
         # counterpart report, in the Health repository. It is a standing
         # report, not a morning report — its link carries no update time.
         if item.get("name", "") == "Muse connectors report":
-            time_report.append(("Maggie Apps Report (standing report — not a morning report)", None))
+            time_report.append(("Aela Apps Report (standing report — not a morning report)", None))
             cards.append(
                 '<div class="card"><div class="row">'
-                "<h3>Maggie Apps Report</h3>"
+                "<h3>Aela Apps Report</h3>"
                 '<span class="st">Standing</span></div>'
                 '<div class="det">Apps in use and available to add — '
-                f"checked {MAGGIE_APPS_CHECKED}. Maggie's counterpart "
+                f"checked {MAGGIE_APPS_CHECKED}. Aela's counterpart "
                 "to the Muse connectors report — the apps and "
                 "connections on her side. It stands in the Health "
                 "repository and opens with your GitHub sign-in.</div>"
@@ -834,6 +841,23 @@ def main():
         f'<div class="det">{rr_body}</div>'
         f'<div class="links"><a href="{ARCHIVE_PROCESS_URL}">'
         "How talks close and move to the Archive</a></div></div>"
+    )
+
+    # The standing Daily Security & Outage Brief card (Clay approved
+    # the brief 2026-11-24): the morning-security-brief-daily job
+    # publishes each morning's brief — the past day's job log, the
+    # cyber and outage news, and the preparedness reminder — as a PDF
+    # at the one fixed address above, overwritten every day.
+    time_report.append(("Daily Security & Outage Brief (standing daily PDF — not a morning report)", None))
+    cards.append(
+        '<div class="card"><div class="row">'
+        "<h3>Daily Security &amp; Outage Brief</h3>"
+        '<span class="st">Updated each morning</span></div>'
+        '<div class="det">The morning security, outage and job-log '
+        "brief — last night's jobs, the day's cyber and outage news, "
+        "and the preparedness reminder, in one short PDF.</div>"
+        f'<div class="links"><a href="{SECURITY_BRIEF_URL}">'
+        "Daily Security &amp; Outage Brief (PDF)</a></div></div>"
     )
 
     # The standing Black Friday card (Clay's order, 2026-11-18): the
